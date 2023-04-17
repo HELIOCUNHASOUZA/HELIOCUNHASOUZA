@@ -8,9 +8,5 @@ router.get("/", (req, res)=> {
     return res.sendFile(__dirname + "/views/index.html")
 })
 
-
-//definindo rotas para o roteador
-router.post("/", (req, res)=> {
-    // nova rota do tipo post /calculos
-    res.status(201).json(__calculos + "/controllers/resultadosCalculos.js")
-})
+//exportando roteador
+module.exports = router

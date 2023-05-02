@@ -1,0 +1,55 @@
+header {
+    background-color: #1623e1;
+    color: #fff;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #0a0a0a;
+}
+/* Estilos para o banner */
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #1623e1;
+    color: #fff;
+    padding: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.social-icons a {
+    margin-right: 20px;
+}
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px #000;
+}
+footer p {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+

@@ -7,6 +7,9 @@ const router = express.Router("router")
 router.get("/", (req, res)=> {
     return res.sendFile(__dirname + "/views/index.html")
 })
+router.get("/views/second.html", (req, res)=> {
+    return res.sendFile(__dirname + "/views/second.html")
+})
 
 //exportando roteador
 module.exports = router

@@ -12,5 +12,5 @@ app.use("/", router)
 
 
 app.listen(port,()=>{
-    console.log(`servidor rodando`)
+    console.log(`servidor rodando ${port}`)
 })

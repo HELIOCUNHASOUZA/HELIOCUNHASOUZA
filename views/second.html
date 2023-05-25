@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Página Inicial</title>
-    <link rel="stylesheet" type="text/css" href="style.css">    <link rel="stylesheet" type="text/css" href="/css/home.css" />
+    <link rel="stylesheet" type="text/css" href="second.css">    <link rel="stylesheet" type="text/css" href="/css/second.css" />
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
+                
+                <li><a href="http://localhost:3000/views/index.html">Início</a></li>
                 <li><a href="#">Contato</a></li>
+                <li><a href="http://localhost:3000/views/blog.html">Blog</a></li>
+                <li><a href="http://localhost:3000/views/sobre.html">sobre</a></li>
+                
             </ul>
         </nav>
     </header>
@@ -22,8 +25,16 @@
             <section class="banner">
                 <h1>Profissionais para seu atendimento!</h1>
             </section>
-            <img src="public/img/images.png" alt="">
-            
+
+            <figure>
+                <figcaption>Vitor</figcaption>
+                <img src="/public/img/img.jpg" alt="profissionais">
+                <figcaption>Camilla</figcaption>
+                <img src="/public/img/img.jpg" alt="profissionais">
+
+
+            </figure>
+       
             
         </div>
         <div class="container">
@@ -39,8 +50,10 @@
                 <input type="time" id="hora" name="hora" required><br><br>
                 <input type="submit" value="Agendar Consulta">
             </form>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugiat voluptas. Sint eligendi, a perferendis incidunt optio reiciendis. Consequatur dolores commodi totam ex assumenda saepe laboriosam, aut aliquid? Eius, sed?</p>
         </div>
         <style>
+            
             .container {
                 width: 50%;
                 float: left;
@@ -49,6 +62,12 @@
                 width: 50%;
                 float: left;
             }
+
+            .container2 img {
+                height: 400px;
+                width: 100%;
+               
+              }
 
             body {
                 font-family: Arial, sans-serif;
